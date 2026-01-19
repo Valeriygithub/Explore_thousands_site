@@ -515,7 +515,7 @@ input {
 
 .sitemap__title {
     color: #FBFBFC;
-    /* font-size: 18px; */
+    font-size: 18px;
     font-weight: 600;
     line-height: 100%;
     margin: 0;
