@@ -1,0 +1,61 @@
+@media screen and (max-width: 1350px) {
+
+    .offer__item {
+        position: static;
+        border: 3px solid #19191C;
+        display: inline-block;
+        padding: 10px;
+        max-height: 48px;
+    }
+
+    .offer__list {
+        display: flex;
+        gap: 12px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .discaver__cards {
+        justify-content: space-around;
+    }
+
+    .offer__list {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 860px) {
+
+    .nav,
+    .btn_box_header {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .discover__list {
+        gap: 22px;
+    }
+
+    .find__program__box {
+        flex-direction: column;
+        gap: 35px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .learn__title {
+        line-height: 56px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .offer__list {
+        display: none;
+    }
+}
